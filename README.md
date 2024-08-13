@@ -6,7 +6,7 @@ XML(eXtensible Markup Language) 은 HTML과 같은 마크업 언어이지만, HT
 엄밀히 말하자면 XML은 마크업 언어라기 보다 마크업 언어를 정의하기 위한 언어라고 할 수있다.
 
 ## 2. 사용자가 입력하는 값, 또는 이미 입력된 값, 메달 정보와 같은 **애플리케이션의 상태를 관리하기(추가, 변경, 삭제) 위해 리액트의 어떤 기능을 사용하셨나요**?
-```
+```javascript
 const [countries, setCountries] = useState([]);
 const [country, setCountry] = useState("");
 const [gold, setGold] = useState(0);
@@ -20,7 +20,8 @@ usestate 훅을 사용했습니다.
 현재 이 문서에는 컴포넌트 간에 공유없이 코드가 작성되었습니다.
 
 ## 4. 기능 구현을 위해 **불변성 유지가** 필요한 부분이 있었다면 하나만 설명해 주세요.
-```const handleUpdateCountry = (event) => {
+```javascript
+  const handleUpdateCountry = (event) => {
   event.preventDefault();
 
   const existingCountry = countries.find((c) => c.name === country);
