@@ -23,7 +23,7 @@ function App() {
   const handleBronzeChange = (event) => {
     setBronze(Number(event.target.value));
   };
-
+//상태 관리와 메달 집계 추가 기능 구현
   const handleAddCountry = (event) => {
     event.preventDefault();
     const existingCountry = countries.find((c) => c.name === country);
@@ -43,7 +43,7 @@ function App() {
     setSilver(0);
     setBronze(0);
   };
-
+//메달 수 업데이트
   const handleUpdateCountry = (event) => {
     event.preventDefault();
 
@@ -68,7 +68,7 @@ function App() {
       alert("등록 되지 않은 국가입니다.");
     }
   };
-
+//메달 수 삭제
   const handleDeleteCountry = (countryName) => {
     const updatedCountries = countries.filter((c) => c.name !== countryName);
     setCountries(updatedCountries);
@@ -114,7 +114,7 @@ function App() {
           </button>
         </div>
       </form>
-
+      {/* 메달 집계 리스트 출력하기 */}
       {countries.length === 0 ? (
         <p>아직 추가된 국가가 없습니다. 메달을 추적하세요!</p>
       ) : (
