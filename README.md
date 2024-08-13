@@ -1,8 +1,10 @@
-# React + Vite
+# 개별과제 문제
+## 1. **JSX 문법**이란 무엇일까요?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 2. 사용자가 입력하는 값, 또는 이미 입력된 값, 메달 정보와 같은 **애플리케이션의 상태를 관리하기(추가, 변경, 삭제) 위해 리액트의 어떤 기능을 사용하셨나요**?
 
-Currently, two official plugins are available:
+## 3. 애플리케이션의 **상태 값들을 컴포넌트 간 어떤 방식으로 공유하셨나요**?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 4. 기능 구현을 위해 **불변성 유지가** 필요한 부분이 있었다면 하나만 설명해 주세요.
+
+## 5. 반복되는 컴포넌트를 파악하고 재사용할 수 있는 **컴포넌트로 분리해 보셨나요?** 그렇다면 **어떠한 이점이 있었나요?**
